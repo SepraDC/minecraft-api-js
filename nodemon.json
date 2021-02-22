@@ -1,0 +1,12 @@
+{
+  "events": {
+    "restart": "echo \"App restarted due change detected on file: $FILENAME\""
+  },
+  "ignore" : [
+    "*.test.js"
+  ],
+  "verbose" : false,
+  "watch": [
+    "*.js"
+  ]
+}
